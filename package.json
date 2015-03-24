@@ -1,0 +1,31 @@
+{
+  "name": "plugin-less",
+  "version": "1.0.0",
+  "description": "JSX plugin for SystemJS using Babel.js",
+  "homepage": "https://github.com/zcregan/plugin-less",
+  "author": "Zachary Cregan",
+  "main": "less.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zcregan/plugin-less.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zcregan/plugin-less/issues"
+  },
+  "keywords": [
+    "SystemJS",
+    "LESS"
+  ],
+  "jspm": {
+    "directories": {
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "lessC": "npm:less@^2.4.0"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
